@@ -11,7 +11,7 @@
         <b-collapse id="nav-collapse" is-nav>
           
           <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto text-uppercase font-weight-bold" style="font-size: 12px; color: white;">
+          <b-navbar-nav class="ml-auto text-uppercase text-center font-weight-bold" style="font-size: 12px; color: white;">
             <b-navbar-nav>
               <b-nav-item :to="{name: 'home'}" class="my-nav-item">Home</b-nav-item>
               <b-nav-item :to="{name: 'about'}" class="my-nav-item">About</b-nav-item>
