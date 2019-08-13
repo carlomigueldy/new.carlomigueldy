@@ -1,6 +1,7 @@
 import Home from './components/Home.vue'
 import About from './components/About'
 import Contact from './components/Contact'
+import Portfolio from './components/Portfolio'
 
 const routes = [
     { 
@@ -17,6 +18,11 @@ const routes = [
         name: 'contact', 
         path: '/contact', 
         component: Contact 
+    },
+    { 
+        name: 'portfolio', 
+        path: '/portfolio', 
+        component: Portfolio 
     },
 ];
 

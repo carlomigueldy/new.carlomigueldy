@@ -1,7 +1,6 @@
 <template>
   <div>
     <nav>
-      
       <b-navbar toggleable="lg" type="dark" class="shadow-sm fixed-top" style="background-color: #41b883">
         <div class="container">
         <b-navbar-brand :to="{name: 'home'}" class="my-nav-item" style="font-size: 30px">{ <span class="font-weight-bold">Dy</span> }</b-navbar-brand>
@@ -16,6 +15,7 @@
               <b-nav-item :to="{name: 'home'}" class="my-nav-item">Home</b-nav-item>
               <b-nav-item :to="{name: 'about'}" class="my-nav-item">About</b-nav-item>
               <b-nav-item :to="{name: 'contact'}" class="my-nav-item">Contact</b-nav-item>
+              <b-nav-item :to="{name: 'portfolio'}" class="my-nav-item">Portfolio</b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
         </b-collapse>
@@ -23,10 +23,18 @@
       </b-navbar>
     </nav>
   
-    <main class="my-bg-first" style="padding-top: 115px">
+    <main class="my-bg-first" style="padding-top: 80px">
       <transition name="component-fade" mode="out-in">
         <router-view />
       </transition>
+
+      <div class="my-bg-first">
+        <div class="row">
+          <div class="col text-center">
+            Carlo Miguel Dy
+          </div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
@@ -36,13 +44,11 @@ export default {
   name: 'App',
   data() {
     return {
-      show: false,
+      // 
     }
   },
   methods: {
-    showContent() {
-      this.show = !this.show
-    },
+    // 
   }
 }
 </script>
@@ -50,6 +56,12 @@ export default {
 <style>
 body {
   font-family: 'Montserrat', sans-serif;
+}
+img {
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.05)
 }
 .my-nav-item {
   transition: all 0.5s;
