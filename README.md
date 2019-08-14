@@ -32,13 +32,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 My reference from <a href="https://medium.com/@Roli_Dori/deploy-vue-cli-3-project-to-github-pages-ebeda0705fbd">Medium</a> 
 <ul>
     <li>If there is an existing gh-pages branch, delete it locally and remotely.</li>
-    <li>git push --delete https://github.com/carlomigueldy/carlomigueldy gh-pages</li>
-    <li>git branch -D gh-pages</li>
+    <li>Delete the branch remotely: <code>git push --delete https://github.com/carlomigueldy/carlomigueldy gh-pages</code></li>
+    <li>Delete the branch locally: <code>git branch -D gh-pages</code></li>
     <li>Else,</li>
-    <li>git checkout -b gh-pages</li>
-    <li>touch vue.config.js</li>
-    <li><code>module.exports = { publicPath: '/' } </code></li>
-    <li>npm run build</li>
-    <li>git add dist && git commit -m "Initial dist subtree commit"</li>
-    <li>git subtree push --prefix dist origin gh-pages</li>
+    <li>Create new branch with 'gh-pages' as its name: <code>git checkout -b gh-pages</code></li>
+    <li>Create a file: <code>touch vue.config.js</code></li>
+    <li>Open .gitignore file, then uncomment '/dist'</li>
+    <li>Write: <code>module.exports = { publicPath: '/' } </code></li>
+    <li><code>npm run build</code></li>
+    <li><code>git add dist && git commit -m "Initial dist subtree commit"</code></li>
+    <li><code>git subtree push --prefix dist origin gh-pages</code></li>
 </ul>
