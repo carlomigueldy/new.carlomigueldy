@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            ToolKit
+            ToolKit <font-awesome-icon :icon="['fab', 'angular']" spin style="font-size: 50px" /> 
           </div>
         </div>
       </div>
