@@ -6,16 +6,16 @@
         <div class="row pt-5">
           <div class="col-sm-12 col-md-12 col-lg-6 mb-5 pb-5">
             <div class="pl-5">
-              <div class="font-italic" style="font-size: 30px; padding-top: 100px">Hello there my name is, </div>
+              <div class="font-italic" style="font-size: 30px; padding-top: 60px">Hello there my name is, </div>
               <div style="font-size: 60px; font-weight: bold;">Carlo Miguel Dy</div>
-              <p>.. and I am a self-taught Web Developer from the <b>Philippines</b></p>
+              <p class="text-justify">and I am a self-taught <b>Web Developer</b> & <b>Programmer</b> from the Philippines. I make web applications/systems usually with Laravel</p>
             </div>
             <div class="text-center">
-              <router-link :to="{name: 'portfolio'}" class="my-btn-portfolio btn btn-light btn-lg" style="border-radius: 30px">Portfolio</router-link>
+              <router-link :to="{name: 'portfolio'}" class="btn my-btn-portfolio btn-light btn-lg pulse" style="border-radius: 30px">Portfolio <font-awesome-icon :icon="['fas', 'chevron-right']" class="ml-2" /></router-link>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-            <img class="mt-5" src=".././assets/laravel-vue.svg" 
+          <div class="col-sm-12 col-md-12 col-lg-6 text-center pt-5">
+            <img class="mb-5 pb-5" src=".././assets/laravel-vue.svg" 
             alt="Laravel & Vue" width="325px" height="325px">
           </div>
         </div>
@@ -42,12 +42,46 @@
 <style scoped>
 .my-btn-portfolio {
   background-color: #fff;
+  border: none;
+  outline: 0;
 }
 .my-btn-portfolio:hover {
   background-color: #41b883;
-  border: none;
   color: #fff;
-  outline: 0;
+}
+.pulse {
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(65, 184, 131, 0.7);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(65, 184, 131, 0.7);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(65, 184, 131, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(65, 184, 131, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(65, 184, 131, 0.7);
+    box-shadow: 0 0 0 0 rgba(65, 184, 131, 0.7);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(65, 184, 131, 0);
+      box-shadow: 0 0 0 10px rgba(65, 184, 131, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(65, 184, 131, 0);
+      box-shadow: 0 0 0 0 rgba(65, 184, 131, 0);
+  }
 }
 a {
   color: #41b883;
