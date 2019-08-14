@@ -1,30 +1,36 @@
 <template>
   <div>
 
-    <div style="margin-bottom: 80px">
+    <div style="margin-bottom: 60px">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="font-italic" style="font-size: 30px; padding-top: 100px">Hello there my name is, </div>
-            <div style="font-size: 60px">Carlo Miguel Dy</div>
-            <p>.. and I am a Laravel and Vue js Developer from the Philippines</p>
+        <div class="row pt-5">
+          <div class="col-sm-12 col-md-12 col-lg-6 mb-5 pb-5">
+            <div class="pl-5">
+              <div class="font-italic" style="font-size: 30px; padding-top: 100px">Hello there my name is, </div>
+              <div style="font-size: 60px; font-weight: bold;">Carlo Miguel Dy</div>
+              <p>.. and I am a self-taught Web Developer from the <b>Philippines</b></p>
+            </div>
             <div class="text-center">
-              <router-link :to="{name: 'portfolio'}" class="my-nav-item btn btn-light btn-lg" style="border-radius: 30px">Portfolio</router-link>
+              <router-link :to="{name: 'portfolio'}" class="my-btn-portfolio btn btn-light btn-lg" style="border-radius: 30px">Portfolio</router-link>
             </div>
           </div>
-          <div class="col text-center">
+          <div class="col-sm-12 col-md-12 col-lg-6 text-center">
             <img class="mt-5" src=".././assets/laravel-vue.svg" 
-            alt="Laravel & Vue" width="400px" height="400px">
+            alt="Laravel & Vue" width="325px" height="325px">
           </div>
         </div>
       </div>  
     </div>
 
-    <div class="my-bg-second pt-5 pb-5">
-      <div class="container">
+    <div class="my-bg-second pt-5 mb-5">
+      <div class="container text-center">
         <div class="row">
-          <div class="col text-center">
-            ToolKit <font-awesome-icon :icon="['fab', 'angular']" spin style="font-size: 50px" /> 
+           <div class="col">
+             <img style="padding-bottom: 60px " src="../assets/version-control.svg" alt="Version Control" height="250px" width="250px">
+          </div>
+          <div class="col">
+            <h1 class="float-left mr-3">{ About Me }</h1>
+            <p class="text-justify mb-5">I am a 22 year old undergraduate college student and in my last year in university with a degree in Information Technology, focusing in Database Systems at <a href="http://msuiit.edu.ph" target="_blank">Mindanao State University - Iligan Institute of Technology</a>. I am an experienced Laravel Developer with a year of experience in using PHP and that I've built personal & school projects with it.</p>
           </div>
         </div>
       </div>
@@ -34,12 +40,30 @@
 </template>
 
 <style scoped>
-.my-nav-item:hover {
+.my-btn-portfolio {
+  background-color: #fff;
+}
+.my-btn-portfolio:hover {
   background-color: #41b883;
-  border-color: #41b883;
   border: none;
   color: #fff;
   outline: 0;
+}
+a {
+  color: #41b883;
+}
+.my-icon {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.my-icon:hover {
+  transform: scale(1.5)
+}
+#hover-content {
+  display: none;
+}
+#parent:hover #hover-content {
+  display: block;
 }
 </style>
 
