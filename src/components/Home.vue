@@ -1,22 +1,22 @@
 <template>
   <div>
 
-    <div style="margin-bottom: 60px">
+    <div id="content">
       <div class="container">
-        <div class="row pt-5">
-          <div class="col-sm-12 col-md-12 col-lg-6 mb-5 pb-5">
-            <div class="pl-5">
-              <div class="font-italic" style="font-size: 30px; padding-top: 60px">Hello there my name is, </div>
-              <div style="font-size: 60px; font-weight: bold;">Carlo Miguel Dy</div>
-              <p class="text-justify">and I am a self-taught <b>Web Developer</b> & <b>Programmer</b> from the Philippines. I make web applications/systems usually with Laravel</p>
-            </div>
+        <div class="row pt-3">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            
+            <div class="my-hello font-italic">Hello there my name is, </div>
+            <div class="my-name">Carlo Miguel Dy</div>
+            <p class="my-desc text-justify">and I am a self-taught <b>Web Developer</b> & <b>Programmer</b> from the Philippines. I make web applications/systems usually with Laravel</p>
+            
             <div class="text-center">
               <router-link :to="{name: 'portfolio'}" class="btn my-btn-portfolio btn-light btn-lg pulse" style="border-radius: 30px">Portfolio <font-awesome-icon :icon="['fas', 'chevron-right']" class="ml-2" /></router-link>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 text-center pt-5">
-            <img class="mb-5 pb-5" src=".././assets/laravel-vue.svg" 
-            alt="Laravel & Vue" width="325px" height="325px">
+          <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+            <img class="my-laravel mt-5 pr-4" src=".././assets/laravel-vue.svg" 
+            alt="Laravel & Vue">
           </div>
         </div>
       </div>  
@@ -39,7 +39,28 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Home',
+}
+</script>
+
 <style scoped>
+#content {
+  margin-top: 80px;
+}
+.my-hello {
+  padding-top: 60px;
+  font-size: 30px;
+}
+.my-name {
+  font-size: 60px; font-weight: bold;
+}
+.my-laravel {
+  height: 500px;
+  width: 500px;
+  padding-bottom: 80px;
+}
 .my-btn-portfolio {
   background-color: #fff;
   border: none;
@@ -99,11 +120,31 @@ a {
 #parent:hover #hover-content {
   display: block;
 }
-</style>
-
-<script>
-export default {
-  name: 'Home',
+@media only screen and (max-width: 414px) {
+  #content {
+    margin-top: 0;
+  }
+  .my-hello {
+    font-size: 20px;
+  }
+  .my-name {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .my-desc {
+    font-size: 12px;
+  }
+  .my-laravel {
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    padding-left: 20px;
+  }
+  .my-btn-portfolio {
+    margin-top: 15px;
+    font-size: 14px;
+  }
 }
-</script>
+</style>
 
