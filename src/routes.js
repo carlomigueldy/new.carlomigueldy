@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio'
 const routes = [
     { 
         name: 'home', 
-        path: 'carlomigueldy', 
+        path: '/', 
         component: Home 
     },
     { 
