@@ -21,15 +21,12 @@ export default {
 </script>
 
 <style scoped>
-#content {
-  padding-top: 70px;
-}
 .my-header {
-  padding-top: 200px;
+  padding-top: 8rem;
 }
 .my-const {
-  height: 500px; 
-  width: 500px;
+  height: 450px; 
+  width: 450px;
 }
 @media only screen and (max-width: 414px) {
   #content {

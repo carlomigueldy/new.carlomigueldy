@@ -1,7 +1,7 @@
 import Home from './components/Home.vue'
 import About from './components/About'
 import Contact from './components/Contact'
-import Portfolio from './components/Portfolio'
+import Projects from './components/Projects'
 
 const routes = [
     { 
@@ -20,9 +20,9 @@ const routes = [
         component: Contact 
     },
     { 
-        name: 'portfolio', 
-        path: '/portfolio', 
-        component: Portfolio 
+        name: 'projects', 
+        path: '/projects', 
+        component: Projects 
     },
 ];
 

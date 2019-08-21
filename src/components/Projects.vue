@@ -6,7 +6,7 @@
           <img class="my-const" src="../assets/under-construction.svg" alt="Section Under Construction">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 text-center" id="section-2">
-          <h1 class="my-header display-2">{ Portfolio }</h1>
+          <h1 class="my-header display-2">{ Projects }</h1>
           <h1>Under Construction</h1>
         </div>
       </div>
@@ -21,15 +21,12 @@ export default {
 </script>
 
 <style scoped>
-#content {
-  padding-top: 70px;
-}
 .my-header {
-  padding-top: 200px;
+  padding-top: 8rem;
 }
 .my-const {
-  height: 500px; 
-  width: 500px;
+  height: 450px; 
+  width: 450px;
 }
 @media only screen and (max-width: 414px) {
   #content {
