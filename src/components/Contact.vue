@@ -2,12 +2,12 @@
   <div>
     <div class="container" id="content">
       <div class="row mb-5">
-        <div class="col-sm-12 col-md-12 col-lg-6 text-center" id="section-1">
-          <img class="my-const" src="../assets/under-construction.svg" alt="Section Under Construction">
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 text-center" id="section-2">
-          <h1 class="my-header display-2">{ Contact }</h1>
-          <h1>Under Construction</h1>
+        <div class="col-sm-12 col-md-12 col-lg-12 pt-4 text-center" id="section-1">
+          <h1>{ Contact Me }</h1>
+          <a href="mailto:carlomigueldy@gmail.com" target="_blank">
+            <h2>carlomigueldy@gmail.com</h2>
+          </a>
+          <img src="../assets/contact.svg" alt="">
         </div>
       </div>
     </div>
@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style scoped>
+img {
+  height: 300px;
+  width: 300px;
+}
 .my-header {
   padding-top: 8rem;
 }
@@ -45,8 +49,14 @@ export default {
     font-size: 55px;
   }
   h1 {
+    padding-top: 5rem;
+  }
+  h2 {
     font-size: 20px;
-    margin-bottom: 100px;
+  }
+  img {
+  height: 250px;
+  width: 250px;
   }
 }
 </style>

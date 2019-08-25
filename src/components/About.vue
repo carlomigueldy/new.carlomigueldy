@@ -26,7 +26,7 @@ img {
   width: 500px;
 }
 .about {
-  padding-top: 7rem
+  padding-top: 7rem;
 }
 .icon {
   font-size: 5rem;

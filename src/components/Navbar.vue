@@ -9,12 +9,13 @@
                 <b-collapse id="nav-collapse" is-nav>
                     
                     <!-- Right aligned nav items -->
-                    <b-navbar-nav class="ml-auto text-uppercase text-center font-weight-bold" style="font-size: 12px; color: white;">
+                    <b-navbar-nav class="ml-auto text-center font-weight-bold">
                     <b-navbar-nav>
                         <b-nav-item :to="{name: 'home'}" class="my-nav-item">Home</b-nav-item>
                         <b-nav-item :to="{name: 'about'}" class="my-nav-item">About</b-nav-item>
                         <b-nav-item :to="{name: 'contact'}" class="my-nav-item">Contact</b-nav-item>
                         <b-nav-item :to="{name: 'projects'}" class="my-nav-item">Projects</b-nav-item>
+                        <b-nav-item href="https://docs.google.com/document/d/1A2dhDtfZ1Ao-PX2MC7eYqWPy0C9-uf51jtViJJFBBj0/edit?usp=sharing" class="my-nav-item" target="_blank">Resume</b-nav-item>
                     </b-navbar-nav>
                     </b-navbar-nav>
                 </b-collapse>

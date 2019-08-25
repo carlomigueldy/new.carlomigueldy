@@ -4,8 +4,11 @@
       <div class="d-flex justify-content-center align-items-center text-center">
         <div>
           <img src="../assets/laptop.svg" alt="">
-          <div class="my-name">Carlo Miguel Dy</div>
-          <p class="my-desc">College Undergrad. Aspiring Software Engineer.</p>
+          <div class="my-name font-hepta">Carlo Miguel Dy</div>
+          <div class="my-desc font-livvic mb-4 text-left">
+            <div>Aspiring Software Engineer.</div>
+            <div>College Undergrad.</div>
+          </div>
           <div class="text-center">
             <router-link :to="{name: 'projects'}" class="btn my-btn-portfolio btn-light btn-lg pulse" style="border-radius: 30px">View Projects <font-awesome-icon :icon="['fas', 'chevron-right']" class="ml-2" /></router-link>
           </div>
@@ -25,6 +28,12 @@ export default {
 img {
   height: 250px;
   width: 250px;
+}
+.font-hepta {
+  font-family: 'Hepta Slab', serif;
+}
+.font-livvic {
+  font-family: 'Livvic', sans-serif;
 }
 .content { 
   background-color: #34495e;
@@ -94,12 +103,12 @@ img {
     text-align: center;
   }
   .my-name {
-    font-size: 33px;
+    font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
   }
   .my-desc {
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
   }
   .my-laravel {

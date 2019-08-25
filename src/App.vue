@@ -81,6 +81,15 @@ img:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 .component-fade-enter-active, .component-fade-leave-active {
   transition: opacity .3s ease;
 }
