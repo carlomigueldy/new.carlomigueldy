@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <b-navbar toggleable="lg" type="dark" class="shadow-sm fixed-top bg-vue">
+        <b-navbar toggleable="lg" type="dark" class="fixed-top bg-transparent">
             <div class="container">
                 <b-navbar-brand :to="{name: 'home'}" class="my-nav-item">{ <span class="font-weight-bold">Dy</span> }</b-navbar-brand>
 
@@ -15,7 +15,7 @@
                         <b-nav-item :to="{name: 'about'}" class="my-nav-item">About</b-nav-item>
                         <b-nav-item :to="{name: 'contact'}" class="my-nav-item">Contact</b-nav-item>
                         <b-nav-item :to="{name: 'projects'}" class="my-nav-item">Projects</b-nav-item>
-                        <b-nav-item href="https://docs.google.com/document/d/1A2dhDtfZ1Ao-PX2MC7eYqWPy0C9-uf51jtViJJFBBj0/edit?usp=sharing" class="my-nav-item" target="_blank">Resume</b-nav-item>
+                        <b-nav-item href="https://drive.google.com/file/d/14ZIZRFyU9-Jb_jYcWnJZ24YahGGbLuIN/view?usp=sharing" class="my-nav-item" target="_blank">Resume</b-nav-item>
                     </b-navbar-nav>
                     </b-navbar-nav>
                 </b-collapse>

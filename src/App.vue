@@ -40,6 +40,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #11273D;
   color: #ffffff;
+  background: linear-gradient(0deg,rgba(17,39,61,0.78),rgba(17,39,61,0.78)),url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 img {

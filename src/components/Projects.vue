@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="container" id="content">
+    <div class="container d-flex justify-content-center align-items-center min-vh-100 text-center">
       <div class="row mb-5">
         <div class="col-sm-12 col-md-12 col-lg-6 text-center" id="section-1">
           <img class="my-const" src="../assets/under-construction.svg" alt="Section Under Construction">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 text-center" id="section-2">
-          <h1 class="my-header display-2">{ Projects }</h1>
+          <h1 class="my-header display-3">{ Projects }</h1>
           <h1>Under Construction</h1>
         </div>
       </div>

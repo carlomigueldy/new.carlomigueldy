@@ -1,16 +1,22 @@
 <template>
   <div>
-    <div class="container pl-5 pr-5" id="content">
-      <div class="d-flex justify-content-center align-items-center text-center">
+    <div class="container pl-5 pr-5">
+      <div class="d-flex justify-content-center align-items-center min-vh-100 text-center">
         <div>
-          <img src="../assets/laptop.svg" alt="">
-          <div class="my-name font-hepta">Carlo Miguel Dy</div>
-          <div class="my-desc font-livvic mb-4 text-left">
+          <!-- <img src="../assets/laptop.svg" alt=""> -->
+          <div class="my-name font-name" style="letter-spacing: 3px">Carlo Miguel Dy</div>
+          <div class="my-desc font-livvic mb-4 text-center">
             <div>Aspiring Software Engineer.</div>
             <div>College Undergrad.</div>
           </div>
           <div class="text-center">
-            <router-link :to="{name: 'projects'}" class="btn my-btn-portfolio btn-light btn-lg pulse" style="border-radius: 30px">View Projects <font-awesome-icon :icon="['fas', 'chevron-right']" class="ml-2" /></router-link>
+            <router-link :to="{name: 'projects'}" class="btn my-btn-portfolio 
+            btn-light btn-lg pulse" style="border-radius: 30px">
+              View Projects 
+              <small>
+                <font-awesome-icon :icon="['fas', 'arrow-right']" class="ml-2" />
+              </small>
+            </router-link>
           </div>
         </div>
       </div>
@@ -29,8 +35,9 @@ img {
   height: 250px;
   width: 250px;
 }
-.font-hepta {
-  font-family: 'Hepta Slab', serif;
+.font-name {
+  /* font-family: 'Hepta Slab', serif; */
+  font-family: 'Roboto Slab', serif;
 }
 .font-livvic {
   font-family: 'Livvic', sans-serif;
@@ -53,9 +60,9 @@ img {
   width: 400px;
 }
 .my-btn-portfolio {
-  background-color: #fff;
+  background-color: transparent;
   color: #41b883;
-  border: none;
+  border-color: #41b883;
   outline: 0;
 }
 .my-btn-portfolio:hover {
