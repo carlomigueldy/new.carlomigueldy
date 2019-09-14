@@ -2,7 +2,7 @@
   <div>
     <div class="container d-flex justify-content-center align-items-center min-vh-100 text-center">
       <div class="row mb-5">
-        <div class="col-sm-12 col-md-12 col-lg-12 pt-4 text-center" id="section-1">
+        <div class="col-lg-12 text-center">
           <h1>{ Contact Me }</h1>
           <a href="mailto:carlomigueldy@gmail.com" target="_blank">
             <h2>carlomigueldy@gmail.com</h2>

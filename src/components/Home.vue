@@ -4,7 +4,7 @@
       <div class="d-flex justify-content-center align-items-center min-vh-100 text-center">
         <div>
           <!-- <img src="../assets/laptop.svg" alt=""> -->
-          <div class="my-name font-name" style="letter-spacing: 3px">Carlo Miguel Dy</div>
+          <div class="my-name font-name">Carlo Miguel Dy</div>
           <div class="my-desc font-livvic mb-4 text-center">
             <div>Aspiring Software Engineer.</div>
             <div>College Undergrad.</div>
