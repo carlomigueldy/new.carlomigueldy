@@ -15,11 +15,13 @@
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.28",
+    "buefy": "^0.8.5",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.1.2"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@vue/cli-plugin-babel": "^3.10.0",
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.10.0",
