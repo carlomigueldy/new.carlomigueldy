@@ -95,7 +95,7 @@
                     </h1>
                     <section class="section">
                         <h2 class="subtitle has-text-centered">
-                            Send me an email at <a target="_blank" class="has-text-primary" href="mailto:carlomigueldy@gmail.com">carlomigueldy@gmail.com</a>
+                            If you want to get in touch with me, send me an email at <a target="_blank" class="has-text-primary" href="mailto:carlomigueldy@gmail.com">carlomigueldy@gmail.com</a>
                         </h2>
                     </section>
                 </div>
