@@ -13,6 +13,9 @@ Strong engineering professional with a Bachelor of Science in Information Techno
 - [Twitter](https://twitter.com/CarloMiguelDy)
 - [Facebook](https://www.facebook.com/polarixdy)
 - [Instagram](https://www.instagram.com/carlomigueldy/)
+- [Dev](https://dev.to/carlomigueldy)
+- [Hashnode](https://carlomigueldy.hashnode.dev/)
+- [Medium](http://carlomigueldy.medium.com/)
 
 ### Get in touch with me
 [carlomigueldy@gmail.com](mailto:carlomigueldy@gmail.com)
