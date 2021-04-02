@@ -19,3 +19,7 @@ Strong engineering professional with a Bachelor of Science in Information Techno
 
 ### Get in touch with me
 [carlomigueldy@gmail.com](mailto:carlomigueldy@gmail.com)
+
+<a href="https://dev.to/carlomigueldy">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Carlo Miguel Dy's DEV Community Profile" height="30" width="30">
+</a>
