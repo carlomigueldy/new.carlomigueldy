@@ -3,11 +3,7 @@ Hello there, my name is Carlo Miguel Dy.
 ### Follow / Connect with me
 - [LinkedIn](https://www.linkedin.com/in/carlo-miguel-dy-168797181/)
 - [Twitter](https://twitter.com/CarloMiguelDy)
-- [Facebook](https://www.facebook.com/polarixdy)
-- [Instagram](https://www.instagram.com/carlomigueldy/)
 - [Dev](https://dev.to/carlomigueldy)
-- [Hashnode](https://carlomigueldy.hashnode.dev/)
-- [Medium](http://carlomigueldy.medium.com/)
 
 ### Get in touch with me
 [carlomigueldy@gmail.com](mailto:carlomigueldy@gmail.com)
