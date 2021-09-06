@@ -11,7 +11,7 @@
 
 <!-- - 👯 I’m looking to collaborate on **interesting open-source projects.** -->
 
-- 👨‍💻 All of my projects are available at [carlomigueldy.netlify.app](carlomigueldy.netlify.app)
+- 👨‍💻 All of my projects are available at [carlomigueldy.netlify.app](https://carlomigueldy.netlify.app)
 
 - 📝 I regularly write articles on [https://dev.to/carlomigueldy](https://dev.to/carlomigueldy)
 
