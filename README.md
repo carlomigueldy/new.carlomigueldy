@@ -15,7 +15,7 @@
 
 - 📝 I regularly write articles on [https://dev.to/carlomigueldy](https://dev.to/carlomigueldy)
 
-- 💬 Ask me about **laravel, vue, react, nuxtjs, flutter, php, and dart**
+- 💬 Ask me about **laravel, vue, react, nuxtjs, flutter, php, dart, firebase, and supabase**
 
 - 📫 How to reach me **carlomigueldy@gmail.com**
 
