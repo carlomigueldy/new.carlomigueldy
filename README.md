@@ -7,9 +7,9 @@
 
 - 🔭 I’m currently working on **company client projects at [FilledStacks](https://www.filledstacks.com/).**
 
-- 🌱 I’m currently learning **about Blockchain technology.**
+- 🌱 I’m currently learning **about Web 3.0**
 
-- 👯 I’m looking to collaborate on **interesting open-source projects.**
+<!-- - 👯 I’m looking to collaborate on **interesting open-source projects.** -->
 
 - 👨‍💻 All of my projects are available at [carlomigueldy.netlify.app](carlomigueldy.netlify.app)
 
