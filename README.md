@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **company client projects at [FilledStacks](https://www.filledstacks.com/).**
 
-- 🌱 I’m currently learning **about Web 3.0**
+- 🌱 I’m currently learning **more about Web 3.0**
 
 <!-- - 👯 I’m looking to collaborate on **interesting open-source projects.** -->
 
