@@ -22,6 +22,8 @@ const Home: NextPage = () => {
         <meta name="keywords" content={META.keywords.join(", ")} />
         <meta name="environment" content={META.environment} />
         <link rel="canonical" href={META.url} />
+        {/* TODO: To be updated when deploying for Production */}
+        <meta name="google-site-verification" content="sz3uEzwwk-zznHKwFghGoJPVjIGypzQG6NLl_F5A9oM" />
 
         {/* Facebook */}
         <meta property="og:type" content="website" />
