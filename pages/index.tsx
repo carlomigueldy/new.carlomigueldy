@@ -37,8 +37,10 @@ const Home: NextPage = () => {
         <meta property="twitter:url" content={META.url} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:creator" content="@CarloMiguelDy" />
+        <meta property="twitter:site" content="@CarloMiguelDy" />
         <meta property="twitter:image" content={META.imageUrl} />
         <meta property="twitter:image:src" content={META.imageUrl} />
+        <meta property="twitter:image:alt" content={META.imageAlt} />
 
         {/* Forem */}
         <meta property="forem:name" content={META.title} />

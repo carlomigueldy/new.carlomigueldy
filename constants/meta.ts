@@ -2,13 +2,16 @@ import { PHOTOS } from "./photos";
 
 export const META = {
   environment: "staging",
+  /** @dev limit is 60 characters only */
   title: "Carlo Miguel Dy — Software Engineer",
+  /** @dev limit is 105 characters only */
   description:
     "A full stack software engineer, practices software architecture & test driven development, knows the importance of writing tests, and aims to build a better software by leveraging on software design principles. While he also loves to explore, build and contribute to open-source communities he finds it interesting.",
   /** @todo to be changed into https://carlomigueldy.dev for Production */
   url: "https://staging.carlomigueldy.dev",
   /** @todo to add image url */
   imageUrl: PHOTOS.me,
+  imageAlt: "Carlo Miguel's photo",
   keywords: [
     "full stack software engineer",
     "Full Stack Software Engineer",
