@@ -1,15 +1,23 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
-import "@fontsource/epilogue";
-import "@fontsource/poppins";
+// import "@fontsource/epilogue";
+// import "@fontsource/poppins";
+import "@fontsource/sora";
 import Head from "next/head";
 import { META } from "../constants/meta";
+import AppHeader from "../components/AppHeader";
+import AppFooter from "../components/AppFooter";
 
 const theme = extendTheme({
   fonts: {
-    heading: "Poppins",
-    body: "Poppins",
+    heading: "Sora",
+    body: "Sora",
+    mono: "Fira Code",
+  },
+  config: {
+    initialColorMode: "dark",
+    useSystemColorMode: false,
   },
 });
 
@@ -29,6 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content={META.keywords.join(", ")} />
         <meta name="environment" content={META.environment} />
+        <meta name="author" content={META.author} />
         <link rel="canonical" href={META.url} />
         {/* TODO: To be updated when deploying for Production */}
         <meta
@@ -62,7 +71,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="forem:domain" content={META.url} />
       </Head>
 
+      <AppHeader />
+
       <Component {...pageProps} />
+
+      <AppFooter />
     </ChakraProvider>
   );
 }

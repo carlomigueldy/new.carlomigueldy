@@ -11,6 +11,7 @@ export const META = {
   url: "https://staging.carlomigueldy.dev",
   /** @todo to add image url */
   locale: "en_US",
+  author: "Carlo Miguel Dy",
   imageUrl: PHOTOS.me,
   imageAlt: "Carlo Miguel's photo",
   keywords: [

@@ -25,9 +25,13 @@ import {
 } from "react-icons/ai";
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { PHOTOS } from "../constants/photos";
+import { SIZE } from "../constants/size";
+import { useRouter } from "next/dist/client/router";
 // import { Logo } from "@choc-ui/logo";
 
 const AppHeader = () => {
+  const router = useRouter();
+
   const mobileNav = useDisclosure();
 
   const { toggleColorMode: toggleMode } = useColorMode();
@@ -140,14 +144,17 @@ const AppHeader = () => {
         w="full"
         overflowY="hidden"
       >
-        <chakra.div h="4.5rem" mx="auto" maxW="1200px">
+        <chakra.div h="4.5rem" mx={SIZE.mx} maxW={SIZE.maxW}>
           <Flex w="full" h="full" px="6" align="center" justify="space-between">
             <Flex align="center">
-              <Link href="https://linktr.ee/carlomigueldy" target="_blank">
-                <HStack>
-                  <Avatar name="Carlo Miguel Dy" src={PHOTOS.me} />
-                </HStack>
-              </Link>
+              <HStack>
+                <Avatar
+                  name="Carlo Miguel Dy"
+                  src={PHOTOS.me}
+                  onClick={() => router.replace("/")}
+                  cursor="pointer"
+                />
+              </HStack>
             </Flex>
 
             <Flex
