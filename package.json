@@ -1,28 +1,30 @@
 {
-  "name": "carlomigueldy",
-  "version": "1.0.0",
-  "description": "<h1 align=\"center\">Hi 👋, I'm Carlo Miguel Dy</h1> <h3 align=\"center\">A passionate software engineer from Philippines</h3> <!--  <p align=\"left\"> <img src=\"https://komarev.com/ghpvc/?username=carlomigueldy&label=Profile%20views&color=0e75b6&style=flat\" alt=\"carlomigueldy\" /> </p> -->",
-  "main": "index.js",
+  "name": "me",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "yarn workspace me dev",
-    "build": "yarn workspace me build",
-    "lint": "yarn workspace me lint",
-    "start": "yarn workspace me start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carlomigueldy/carlomigueldy.git"
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.16",
+    "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/epilogue": "^4.5.1",
+    "framer-motion": "^4",
+    "next": "12.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/carlomigueldy/carlomigueldy/issues"
-  },
-  "homepage": "https://github.com/carlomigueldy/carlomigueldy#readme",
-  "workspaces": [
-    "me"
-  ]
+  "devDependencies": {
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.33",
+    "eslint": "7",
+    "eslint-config-next": "12.0.1",
+    "typescript": "4.4.4"
+  }
 }
