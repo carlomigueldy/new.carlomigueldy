@@ -1,0 +1,28 @@
+{
+  "name": "carlomigueldy",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Carlo Miguel Dy</h1> <h3 align=\"center\">A passionate software engineer from Philippines</h3> <!--  <p align=\"left\"> <img src=\"https://komarev.com/ghpvc/?username=carlomigueldy&label=Profile%20views&color=0e75b6&style=flat\" alt=\"carlomigueldy\" /> </p> -->",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace me dev",
+    "build": "yarn workspace me build",
+    "lint": "yarn workspace me lint",
+    "start": "yarn workspace me start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlomigueldy/carlomigueldy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlomigueldy/carlomigueldy/issues"
+  },
+  "homepage": "https://github.com/carlomigueldy/carlomigueldy#readme",
+  "workspaces": [
+    "me"
+  ]
+}
