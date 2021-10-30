@@ -10,6 +10,7 @@ export const META = {
   /** @todo to be changed into https://carlomigueldy.dev for Production */
   url: "https://staging.carlomigueldy.dev",
   /** @todo to add image url */
+  locale: "en_US",
   imageUrl: PHOTOS.me,
   imageAlt: "Carlo Miguel's photo",
   keywords: [
