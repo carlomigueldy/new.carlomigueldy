@@ -1,4 +1,4 @@
-import { Box, Link, Text } from "@chakra-ui/layout";
+import { Box, Link, Spacer, Text } from "@chakra-ui/layout";
 import { useRouter } from "next/dist/client/router";
 import { SIZE } from "../constants/size";
 
@@ -8,16 +8,42 @@ const AppFooter = () => {
       height="25vh"
       mx={SIZE.mx}
       maxW={SIZE.maxW}
-      px={32}
+      px={32 / 2}
       py={32 / 2}
-      bgColor="blue.800"
+      display="flex"
+      // bgColor="blue.800"
     >
-      <Text textTransform="uppercase" fontWeight="bold" letterSpacing="widest">
-        Links
-      </Text>
+      <Box p={5}>
+        <Text
+          textTransform="uppercase"
+          fontWeight="bold"
+          letterSpacing="widest"
+        >
+          Links
+        </Text>
 
-      <AppLink path="/">Home</AppLink>
-      <AppLink path="/uses">Uses</AppLink>
+        <AppLink path="/">Home</AppLink>
+        <AppLink path="/uses">Uses</AppLink>
+      </Box>
+
+      <Box p={5}>
+        <Text
+          textTransform="uppercase"
+          fontWeight="bold"
+          letterSpacing="widest"
+        >
+          Links
+        </Text>
+
+        <AppLink path="/">Home</AppLink>
+        <AppLink path="/uses">Uses</AppLink>
+      </Box>
+
+      <Spacer />
+
+      <Box display="flex" justifyContent="center" alignItems="center">
+        <Text>Made with 💖 by carlomigueldy.eth</Text>
+      </Box>
     </Box>
   );
 };

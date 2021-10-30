@@ -132,6 +132,7 @@ const AppHeader = () => {
       right="0"
       backdropFilter="blur(6px)"
       background="transparent"
+      zIndex="999"
     >
       <chakra.header
         // @ts-ignore
@@ -181,7 +182,7 @@ const AppHeader = () => {
                   />
                 </Link>
               </HStack>
-              <IconButton
+              {/* <IconButton
                 size="md"
                 fontSize="lg"
                 aria-label={`Switch to ${text} mode`}
@@ -190,7 +191,7 @@ const AppHeader = () => {
                 ml={{ base: "0", md: "3" }}
                 onClick={toggleMode}
                 icon={<SwitchIcon />}
-              />
+              /> */}
               {BuyMeACoffeeButton}
               <IconButton
                 display={{ base: "flex", md: "none" }}

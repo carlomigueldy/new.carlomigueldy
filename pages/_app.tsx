@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import { Box, Stack, ChakraProvider, extendTheme } from "@chakra-ui/react";
+import { mode } from "@chakra-ui/theme-tools";
 // import "@fontsource/epilogue";
 // import "@fontsource/poppins";
 import "@fontsource/sora";
@@ -8,6 +9,14 @@ import Head from "next/head";
 import { META } from "../constants/meta";
 import AppHeader from "../components/AppHeader";
 import AppFooter from "../components/AppFooter";
+import { GlobalProps } from "@emotion/react";
+
+/**
+ * Blured background
+ * @see https://bgjar.com/colored-patterns
+ * @see https://www.svgbackgrounds.com/
+ * @see https://www.w3schools.com/howto/howto_css_blurred_background.asp
+ */
 
 const theme = extendTheme({
   fonts: {
@@ -18,6 +27,14 @@ const theme = extendTheme({
   config: {
     initialColorMode: "dark",
     useSystemColorMode: false,
+  },
+  styles: {
+    global: (props: GlobalProps) => ({
+      body: {
+        color: mode("gray.800", "whiteAlpha.900")(props),
+        bg: mode("gray.100", "#080808")(props),
+      },
+    }),
   },
 });
 
@@ -73,9 +90,16 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <AppHeader />
 
-      <Component {...pageProps} />
-
-      <AppFooter />
+      <Box
+        backgroundImage="url(/colored-shapes.svg)"
+        backgroundAttachment="fixed"
+        // filter="blur(6px)"
+      >
+        <Box bgColor="red" backdropFilter="blur(24px)" background="transparent">
+          <Component {...pageProps} />
+          <AppFooter />
+        </Box>
+      </Box>
     </ChakraProvider>
   );
 }
