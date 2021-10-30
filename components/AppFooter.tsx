@@ -42,7 +42,16 @@ const AppFooter = () => {
       <Spacer />
 
       <Box display="flex" justifyContent="center" alignItems="center">
-        <Text>Made with 💖 by carlomigueldy.eth</Text>
+        <Text>
+          Made with 💖 by{" "}
+          <a
+            href="https://linktr.ee/carlomigueldy"
+            target="_blank"
+            rel="noreferrer"
+          >
+            carlomigueldy.eth
+          </a>
+        </Text>
       </Box>
     </Box>
   );

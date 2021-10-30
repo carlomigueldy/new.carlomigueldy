@@ -16,6 +16,7 @@ import { GlobalProps } from "@emotion/react";
  * @see https://bgjar.com/colored-patterns
  * @see https://www.svgbackgrounds.com/
  * @see https://www.w3schools.com/howto/howto_css_blurred_background.asp
+ * @see https://www.lapa.ninja/blog/the-best-free-svg-patterns/
  */
 
 const theme = extendTheme({
