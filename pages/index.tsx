@@ -3,17 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import AppHeader from "../components/AppHeader";
-import { PHOTOS } from "../constants/photos";
-import styles from "../styles/Home.module.css";
-
-const META = {
-  title: "Carlo Miguel Dy",
-  description:
-    "A full stack software engineer, practices software architecture & test driven development, knows the importance of writing tests, and aims to build a better software by leveraging on software design principles. While he also loves to explore, build and contribute to open-source communities he finds it interesting.",
-  url: "https://carlomigueldy.dev",
-  /** @todo to add image url */
-  imageUrl: PHOTOS.me,
-};
+import { META } from "../constants/meta";
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +12,8 @@ const Home: NextPage = () => {
         <title>{META.title}</title>
         <meta name="description" content={META.description} />
         <link rel="icon" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="keywords" content={META.keywords.join(", ")} />
 
         {/* Facebook */}
         <meta property="og:type" content="website" />
@@ -49,7 +41,11 @@ const Home: NextPage = () => {
         <div>
           <Text fontSize="4xl">Under Construction 🏗️</Text>
           <h4>
-            <a href="https://linktr.ee/carlomigueldy" target="_blank">
+            <a
+              href="https://linktr.ee/carlomigueldy"
+              target="_blank"
+              rel="noreferrer"
+            >
               carlomigueldy.eth
             </a>
           </h4>

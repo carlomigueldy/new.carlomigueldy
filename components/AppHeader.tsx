@@ -52,7 +52,7 @@ const AppHeader = () => {
       aria-label="Buy me a Coffee"
       href="https://www.buymeacoffee.com/carlomigueldy"
       target="_blank"
-      rel="noopener noreferrer"
+      // rel="noopener noreferrer"
       bg="gray.50"
       borderWidth="1px"
       borderColor="gray.200"
