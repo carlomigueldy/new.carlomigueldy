@@ -10,6 +10,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>{META.title}</title>
+        <meta name="title" content={META.title} />
         <meta name="description" content={META.description} />
         <link rel="icon" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
