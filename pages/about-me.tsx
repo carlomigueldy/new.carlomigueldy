@@ -1,27 +1,35 @@
 import { Box, Text } from "@chakra-ui/layout";
 import { chakra } from "@chakra-ui/system";
-import AppH1 from "../components/AppH1";
 import { SIZE } from "../constants/size";
+import AppH1 from "../components/AppH1";
+import AppPageContainer from "../components/AppPageContainer";
+import React from "react";
 
 function AboutMe() {
   return (
-    <Box
-      minHeight="100vh"
-      mx={SIZE.mx}
-      maxW={SIZE.maxW}
-      py={SIZE.p}
-      px={SIZE.p / 2}
-    >
-      <chakra.section >
+    <AppPageContainer>
+      <chakra.section my={SIZE.my}>
         <AppH1>About Me</AppH1>
-        <Text py={SIZE.py}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
-          nisi, quisquam eveniet officiis ea rem illo, dolore qui repellat harum
-          adipisci minus, molestiae accusamus at assumenda saepe neque molestias
-          iste?
-        </Text>
+        <Box py={SIZE.py}>
+          <chakra.p mb={5}>
+            I am a full stack software engineer & software craftsman based in
+            Philippines. I practice test driven development and learning more
+            about domain driven design and apply those principles on a daily
+            basis. I also emphasize the importance of clean code and strongly
+            believe in those principles in software engineering. DRY, YAGNI,
+            SOLID to mention a few of those.
+          </chakra.p>
+          <chakra.p mb={5}>
+            I am currently active in contributing to Open Source and some
+            involvements in the Web 3.0 space. I am learning more about
+            Blockchain technology on my free time, also interested in learning
+            in depth with regards to smart contract security. Learning how to
+            build smart contracts and Solidity got me hooked about security in
+            general, it's very important to learn about security in this space.
+          </chakra.p>
+        </Box>
       </chakra.section>
-    </Box>
+    </AppPageContainer>
   );
 }
 
