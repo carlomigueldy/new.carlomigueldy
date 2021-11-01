@@ -5,11 +5,10 @@ import { SIZE } from "../constants/size";
 const AppFooter = () => {
   return (
     <Box
-      height="25vh"
       mx={SIZE.mx}
       maxW={SIZE.maxW}
       px={32 / 2}
-      py={32 / 2}
+      py={16 / 2}
       display="flex"
       // bgColor="blue.800"
     >
@@ -18,25 +17,14 @@ const AppFooter = () => {
           textTransform="uppercase"
           fontWeight="bold"
           letterSpacing="widest"
+          mb={5}
         >
           Links
         </Text>
 
         <AppLink path="/">Home</AppLink>
-        <AppLink path="/uses">Uses</AppLink>
-      </Box>
-
-      <Box p={5}>
-        <Text
-          textTransform="uppercase"
-          fontWeight="bold"
-          letterSpacing="widest"
-        >
-          Links
-        </Text>
-
-        <AppLink path="/">Home</AppLink>
-        <AppLink path="/uses">Uses</AppLink>
+        <AppLink path="/tools">Tools</AppLink>
+        <AppLink path="/about-me">About Me</AppLink>
       </Box>
 
       <Spacer />

@@ -96,7 +96,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         backgroundAttachment="fixed"
         // filter="blur(6px)"
       >
-        <Box bgColor="red" backdropFilter="blur(24px)" background="transparent">
+        <Box bgColor="red" backdropFilter="blur(64px)" background="transparent">
           <Component {...pageProps} />
           <AppFooter />
         </Box>
