@@ -27,6 +27,24 @@ const AppFooter = () => {
         <AppLink path="/about-me">About Me</AppLink>
       </Box>
 
+      <Box mx={10} />
+
+      <Box p={5}>
+        <Text
+          textTransform="uppercase"
+          fontWeight="bold"
+          letterSpacing="widest"
+          mb={5}
+          color="transparent"
+        >
+          Links
+        </Text>
+
+        <AppLink path="/work">Work</AppLink>
+        <AppLink path="/portfolio">Portfolio</AppLink>
+        <AppLink path="/blog">Blog</AppLink>
+      </Box>
+
       <Spacer />
 
       <Box display="flex" justifyContent="center" alignItems="center">
