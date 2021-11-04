@@ -12,6 +12,7 @@ export const META = {
   /** @todo to add image url */
   locale: "en_US",
   author: "Carlo Miguel Dy",
+  twitterHandle: "@CarloMiguelDy",
   imageUrl: PHOTOS.me,
   imageAlt: "Carlo Miguel's photo",
   keywords: [

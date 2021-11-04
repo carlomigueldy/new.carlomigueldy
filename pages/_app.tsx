@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>{META.title}</title>
         <meta name="title" content={META.title} />
         <meta name="description" content={META.description} />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -77,8 +77,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="twitter:description" content={META.description} />
         <meta property="twitter:url" content={META.url} />
         <meta property="twitter:card" content="player" />
-        <meta property="twitter:creator" content="@CarloMiguelDy" />
-        <meta property="twitter:site" content="@CarloMiguelDy" />
+        <meta property="twitter:creator" content={META.twitterHandle} />
+        <meta property="twitter:site" content={META.twitterHandle} />
         <meta property="twitter:image" content={META.imageUrl} />
         <meta property="twitter:image:src" content={META.imageUrl} />
         <meta property="twitter:image:alt" content={META.imageAlt} />
