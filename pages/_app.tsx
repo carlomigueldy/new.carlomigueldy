@@ -5,6 +5,7 @@ import { mode } from "@chakra-ui/theme-tools";
 // import "@fontsource/epilogue";
 // import "@fontsource/poppins";
 import "@fontsource/sora";
+import '@fontsource/epilogue'
 import Head from "next/head";
 import { META } from "../constants/meta";
 import AppHeader from "../components/AppHeader";
@@ -21,8 +22,8 @@ import { GlobalProps } from "@emotion/react";
 
 const theme = extendTheme({
   fonts: {
-    heading: "Sora",
-    body: "Sora",
+    heading: "Epilogue",
+    body: "Epilogue",
     mono: "Fira Code",
   },
   config: {

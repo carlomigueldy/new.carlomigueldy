@@ -77,7 +77,13 @@ const AppLink = ({ children, path }: AppLinkProps) => {
     <Text
       onClick={() => router.push(path)}
       cursor="pointer"
-      _hover={{ color: "blue.200" }}
+      _hover={{
+        color: "blue.400",
+        fontWeight: "bold",
+        // fontSize: "2xl",
+        transition: "all .2s ease-in-out",
+        transform: "scale(1.025)",
+      }}
     >
       {children}
     </Text>
