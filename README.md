@@ -14,7 +14,6 @@ Adept at building scalable applications, leading teams, and delivering innovativ
 
 - **Blockchain Development**: Expertise in Solidity, Hardhat, Foundry, and smart contract development, focusing on creating secure, efficient, and scalable solutions. Integrating smart contracts with frontend applications, using libraries like Wagmi, Ethers, and TypeChain to build seamless user experiences.
 - **Backend Development**: Leading backend projects with Nest.js, Fastify, and Viem, ensuring robust architecture and maintainable codebases.
-- **DevOps & Cloud**: Deploying scalable applications on AWS and GCP, optimizing for Big Data performance, and implementing continuous integration/continuous deployment (CI/CD) pipelines.
 - **Leadership & Collaboration**: Guiding teams through development cycles, conducting code reviews, and ensuring alignment between technical solutions and business needs.
 
 ### 🛠️ Technologies I Love
