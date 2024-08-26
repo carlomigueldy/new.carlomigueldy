@@ -40,5 +40,3 @@ Adept at building scalable applications, leading teams, and delivering innovativ
 ---
 
 🔥 **"Code is like humor. When you have to explain it, it’s bad."**
-
----
