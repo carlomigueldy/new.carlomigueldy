@@ -6,7 +6,9 @@
 
 ### 🚀 About Me
 
-I'm a passionate engineer with a deep interest in blockchain technologies, backend development, and crafting scalable, secure solutions. With a solid background in smart contract development, backend engineering, and Web3 dApp integrations, I’ve had the privilege of working on innovative projects that push the boundaries of technology.
+I'm a results-driven software engineer with nearly 5 years of full-stack development experience and 3 years specializing in blockchain technology. I have a deep interest in blockchain technologies, backend development, and crafting scalable, secure solutions. With a solid background in smart contract development, backend engineering, and Web3 dApp integrations, I’ve had the privilege of working on innovative projects that push the boundaries of technology.
+
+Adept at building scalable applications, leading teams, and delivering innovative solutions with a focus on software craftsmanship, I am proficient in TypeScript, React, Next.js, Solidity, Go, and tools such as Hardhat, Foundry, Ethers, Viem, and Wagmi.
 
 ### 💻 What I Do
 
